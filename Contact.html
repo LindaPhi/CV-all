@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" id="L-html">
+<head class=L-head>
+    <link type="text/css" rel="stylesheet" href="Style-cv.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8">
+    <title class="L-title">Contact</title>
+</head>
+<body>
+    <header class="L-header">
+        <div id="L-header">
+            <img class="me" alt="avatar" src="myAvatar.png">
+            <div class="L-titres">
+                <h1 class="L-h1">linda phinouvong</h1>
+                <h2 class="L-h2">Etudiante Campus Numérique In the Alps</h3>
+            </div>
+
+        </div>
+        <div class="L-div">
+            <nav class="L-nav1">
+                <ul>
+                    <li class="L-nav"><a href="" >Les 4fantastiques</a></li>
+                    <li class="L-nav"><a href="Linda\index.html" >Accueil</a></li>
+                    <li class="L-nav"><a href="Linda\Présentation.html">A propos</a></li>
+                    <li class="L-nav"><a href="Linda\Interet.html">Loisirs</a></li>
+                    <li class="L-nav"><a href="Linda\Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h3 class="L-h3">Contact</h3>
+    <form method="post" action="https://httpbin.org/post">
+        <p class="L-p2">Voulez-vous recevoir mon cv au format imprimable</p>
+        <label for="mail1">oui</label>
+        <input type="radio" name="email" id="mail1" required>
+        <label for="mail2">non</label>
+        <input type="radio" name="email" id="mail2"><br>
+        <label for="name">Si oui, entrez votre adresse mail </label>
+        <input type="email" name="nom" id="name"><br>
+        <label for="note">Comment avez-vous trouvez le site?</label>
+        <select name="note" id="note">
+            <option value="">--Choisissez--</option>
+            <option value="bien">--Pas mal pour un début--</option>
+            <option value="moyen">--Peu mieux faire--</option>
+            <option value="nul">--...c'est le début hein...--</option>
+        </select>
+        <p class="L-p2">Commentez</p>
+        <textarea name="commentez" id="commentez" rows="6" cols="50"></textarea><br>
+        <button>Envoyer</button>
+        <p class"L-p2"> linda.phinouvong@le-campus-numerique.fr</p>
+    </form>
+</body>
+</html>
